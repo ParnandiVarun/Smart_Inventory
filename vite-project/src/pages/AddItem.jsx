@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 import InventoryForm from "../components/InventoryForm";
-import InventoryList from "../components/InventortList";
+import InventoryList from "../components/InventoryList";
 import { db } from "../firebase";
 import {
   collection,
